@@ -6,7 +6,7 @@ en esta clase vamos a hablar sobre 3 puntos:
 2. markdown
 3. web publising
    
-## alumnnos
+## alumnos
 
 - jeanmarco
 - angel
