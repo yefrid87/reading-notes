@@ -1,6 +1,6 @@
 # “Growth Mindset”
->publicado el 12 de noviembre del 2015
->por steve hafenden
+>**publicado el 12 de noviembre del 2015**
+>**por [steve haffenden](https://www.occrp.org/en/staff/steve-haffenden)**
 ![Captura de pantalla 2024-09-16 232103](https://github.com/user-attachments/assets/fb1b9cb4-cbaa-4df6-991e-6083d3e27aa1)
 
 > _La mentalidad positiva y de crecimiento te pone grandes metas hace que te esfuerces en todo lo que haces siempre hay que tener la mentalidad de crecimiento
