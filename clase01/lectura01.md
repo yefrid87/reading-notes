@@ -1,4 +1,4 @@
-#clase01-markdown
+# clase01-markdown
 
 en esta clase vamos a hablar sobre 3 puntos:
 
