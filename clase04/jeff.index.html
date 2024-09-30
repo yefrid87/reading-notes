@@ -4,52 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="./app.js"></script>
   </head>
   <style>
-    nav {display:flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-        background-color: white;
-
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background-color: white;
     }
     ul {
-        display: flex;
-        list-style: none;
-        gap: 80px;
+      display: flex;
+      list-style: none;
+      gap: 80px;
     }
     a {
-        text-decoration: none;
-        color: rgb(223, 21, 183);
-        }
-        #boton-inicio {
-            color: black;
-
-        }
-        .list-item {
-            font-weight: bold;
-        }
-        main {
-            display: flex;
-            margin-top: 40px;
-            align-items: center;
-            justify-content: center;
-            font-family: verdana, sans-serif;
-        }
-        footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            background-color: white;
-            bottom: 0;
-            width: 100%;
-        }
+      text-decoration: none;
+      color: rgb(223, 21, 183);
+    }
+    #boton-inicio {
+      color: black;
+    }
+    .list-item {
+      font-weight: bold;
+    }
+    main {
+     
+      display: flex;
+      margin-top: 40 px;
+      align-items: center;
+      justify-content: center;
+      font-family: verdana, sans-serif;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background-color: white;
+      bottom: 0;
+      width: 100%;
     }
   </style>
+  
   <body>
+    <script>document.body.style.backgroundColor=preguntaColor</script>
+    
     <!-- cabecera de mi web -->
     <header>
       <nav style="font-family: Helvetica, sans-serif">
@@ -79,7 +82,17 @@
         />
       </div>
       <div>
-        <h1>yefrid tito manuyama "programador"</h1>
+        <h1>
+          <script>
+            if (preguntaNombre === "") {
+              alert("coloque su nombre");
+            } else {
+              document.write(preguntaNombre);
+            }
+            document.write(preguntaNombre);
+          </script>
+          yefrid tito manuyama "programador"
+        </h1>
         <p>
           Soy yefrid, me gustaria ayudarte en tus proyectos laborales de las
           cuales me especializó en diseño de paginas web, programacion de juegos
@@ -105,6 +118,7 @@
         </ul>
       </div>
     </main>
+    
     <footer>
       <div>
         <img
